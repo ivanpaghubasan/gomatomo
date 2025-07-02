@@ -2,25 +2,25 @@ version: "3.8"
 
 services:
   db:
-    container_name: matomo_test_db
+    container_name: ${MYSQL_CONTAINER}
     image: mariadb:10.5
     environment:
-      MYSQL_DATABASE: matomo
-      MYSQL_USER: matomo
-      MYSQL_PASSWORD: matomo_pass
-      MYSQL_ROOT_PASSWORD: root_pass
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
     volumes:
       - db_data:/var/lib/mysql
 
   matomo:
     image: matomo:latest
     ports:
-      - "8080:80"
+      - "8090:80"
     environment:
-      - MATOMO_DATABASE_HOST=matomo_test_db
-      - MATOMO_DATABASE_DBNAME=matomo
-      - MATOMO_DATABASE_USERNAME=matomo
-      - MATOMO_DATABASE_PASSWORD=matomo_pass
+      MATOMO_DATABASE_HOST: ${MYSQL_CONTAINER}
+      MATOMO_DATABASE_DBNAME: ${MATOMO_DATABASE_DBNAME}
+      MATOMO_DATABASE_USERNAME: ${MATOMO_DATABASE_USERNAME}
+      MATOMO_DATABASE_PASSWORD: ${MATOMO_DATABASE_PASSWORD}
     depends_on:
       - db
 

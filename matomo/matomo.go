@@ -41,7 +41,7 @@ func (m *MatomoClient) UserExists(userEmail string) (bool, error) {
 	params.Set("token_auth", m.TokenAuth)
 
 	endpoint := fmt.Sprintf("%s/index.php", m.BaseURL)
-	fmt.Println(endpoint)
+
 	resp, err := http.PostForm(endpoint, params)
 	if err != nil {
 		return false, err
@@ -99,7 +99,7 @@ func (m *MatomoClient) SiteExists(siteURL string) (bool, error) {
 	params.Set("token_auth", m.TokenAuth)
 
 	endpoint := fmt.Sprintf("%s/index.php", m.BaseURL)
-	fmt.Println(endpoint)
+
 	resp, err := http.PostForm(endpoint, params)
 	if err != nil {
 		return false, err
@@ -152,9 +152,9 @@ func (m *MatomoClient) GenerateTrackingScript(siteID string) string {
         `, m.BaseURL, siteID, m.ScriptHost)
 }
 
-func (m *MatomoClient) ProvisionTelemetry(userID, userEmail, appName, appURL string) (siteID, userLogin, password, script string, err error) {
-	userLogin = fmt.Sprintf("user_%s", userID)
-	password = generateSecurePassword()
+func (m *MatomoClient) ProvisionTelemetry(userName, userEmail, appName, appURL string) (siteID, userLogin, password, script string, err error) {
+	userLogin = userName
+	password = "password123"
 
 	exists, err := m.UserExists(userLogin)
 	if err != nil {
@@ -207,10 +207,39 @@ func (m *MatomoClient) callMatomo(params url.Values) error {
 	return nil
 }
 
+func (m *MatomoClient) InviteUser(userLogin, userEmail string) error {
+	params := url.Values{}
+	params.Set("module", "API")
+	params.Set("method", "UsersManager.inviteUser")
+	params.Set("userLogin", userLogin)
+	params.Set("email", userEmail)
+	params.Set("format", "JSON")
+	params.Set("initialIdSite", "1")
+	params.Set("token_auth", m.TokenAuth)
+
+	endpoint := fmt.Sprintf("%s/index.php", m.BaseURL)
+	resp, err := http.PostForm(endpoint, params)
+	if err != nil {
+		return nil
+	}
+	defer resp.Body.Close()
+
+	body, _ := io.ReadAll(resp.Body)
+	var response struct {
+		Result  string `json:"result"`
+		Message string `json:"message"`
+	}
+	_ = response
+	fmt.Printf("response body: %s", string(body))
+
+	return nil
+
+}
+
 func generateSecurePassword() string {
 	b := make([]byte, 12)
 	if _, err := rand.Read(b); err != nil {
-		return "DefaultPass123!"
+		return "snap12345"
 	}
 	return base64.StdEncoding.EncodeToString(b)
 }
