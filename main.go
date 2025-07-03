@@ -5,7 +5,6 @@ import (
 	"log"
 	"os"
 
-	"github.com/ivanpaghubasan/gomatomo/matomo"
 	"github.com/joho/godotenv"
 )
 
@@ -15,7 +14,7 @@ func main() {
 		log.Fatal("Error loading .env file")
 	}
 
-	client := matomo.InitClient(os.Getenv("MATOMO_URL"), os.Getenv("MATOMO_TOKEN"), os.Getenv("MATOMO_SCRIPT_URL"))
+	client := NewClient(os.Getenv("MATOMO_URL"), os.Getenv("MATOMO_TOKEN"), os.Getenv("MATOMO_SCRIPT_URL"))
 
 	userLogin := "john.doe"
 

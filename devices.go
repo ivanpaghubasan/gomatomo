@@ -1,4 +1,4 @@
-package matomo
+package main
 
 import (
 	"encoding/json"
@@ -8,12 +8,10 @@ import (
 	"net/url"
 )
 
-
-
-func (m *MatomoClient) GetCountry(siteID string) ([]DataResponse, error) {
+func (m *MatomoClient) GetDevices(siteID string) ([]DataResponse, error) {
 	params := url.Values{}
 	params.Set("module", "API")
-	params.Set("method", "UserCountry.getCountry")
+	params.Set("method", "DevicesDetection.getType")
 	params.Set("format", "JSON")
 	params.Set("idSite", siteID)
 	params.Set("period", "day")
@@ -30,12 +28,12 @@ func (m *MatomoClient) GetCountry(siteID string) ([]DataResponse, error) {
 	body, _ := io.ReadAll(resp.Body)
 
 	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("error on reading response body usercountry.getcountry: %v ", string(body))
+		return nil, fmt.Errorf("error on reading response body devicesdetection.gettype: %v ", string(body))
 	}
 
 	var response []DataResponse
 
 	json.Unmarshal([]byte(body), &response)
 
-	return response, nil
+	return nil, nil
 }
