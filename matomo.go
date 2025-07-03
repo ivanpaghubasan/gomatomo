@@ -35,7 +35,7 @@ type DataResponse struct {
 	LogoHeight        int32   `json:"logoHeight"`
 }
 
-func NewClient(baseURL, tokenAuth, scriptHost string) *MatomoClient {
+func NewClient(baseURL, tokenAuth, scriptHost string, ) *MatomoClient {
 	return &MatomoClient{
 		BaseURL:    baseURL,
 		TokenAuth:  tokenAuth,

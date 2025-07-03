@@ -6,6 +6,7 @@ import (
 	"io"
 	"net/http"
 	"net/url"
+	"os"
 )
 
 func (m *MatomoClient) GetCountryList(siteID string) ([]DataResponse, error) {
@@ -47,6 +48,31 @@ type AudienceByCountryResponse struct {
 func (m *MatomoClient) GetAudienceByCountry(siteID string) ([]AudienceByCountryResponse, error) {
 	audienceList, err := m.GetDeviceList(siteID)
 	if err != nil {
+		return nil, err
+	}
+
+	var response []AudienceByCountryResponse
+	for _, data := range audienceList {
+		bounceRate := (data.BounceCount / data.NbVisits) * 100
+		response = append(response, AudienceByCountryResponse{
+			Country:    data.Label,
+			PageViews:  data.NbVisits,
+			BounceRate: float64(bounceRate),
+		})
+	}
+
+	return response, nil
+}
+
+func (m *MatomoClient) GetMockAudienceByCountry() ([]AudienceByCountryResponse, error) {
+	var audienceList []DataResponse
+	file, err := os.Open("mock_country_list.json")
+	if err != nil {
+		return nil, err
+	}
+	defer file.Close()
+
+	if err := json.NewDecoder(file).Decode(&audienceList); err != nil {
 		return nil, err
 	}
 

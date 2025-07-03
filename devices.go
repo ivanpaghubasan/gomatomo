@@ -6,6 +6,7 @@ import (
 	"io"
 	"net/http"
 	"net/url"
+	"os"
 )
 
 func (m *MatomoClient) GetDeviceList(siteID string) ([]DataResponse, error) {
@@ -45,8 +46,47 @@ type SessionsByDeviceResponse struct {
 }
 
 func (m *MatomoClient) GetSessionsByDevice(siteID string) ([]SessionsByDeviceResponse, error) {
+	var deviceList []DataResponse
 	deviceList, err := m.GetDeviceList(siteID)
 	if err != nil {
+		return nil, err
+	}
+
+	if len(deviceList) == 0 {
+		file, err := os.Open("mock_device_list.json")
+		if err != nil {
+			return nil, err
+		}
+		defer file.Close()
+
+		if err := json.NewDecoder(file).Decode(&deviceList); err != nil {
+			return nil, err
+		}
+	}
+
+	var response []SessionsByDeviceResponse
+	for _, data := range deviceList {
+		averageVisitLength := (data.SumVisitLength / data.NbVisits) * 100
+		response = append(response, SessionsByDeviceResponse{
+			Device:             data.Label,
+			Visits:             data.NbVisits,
+			AverageVisitLength: float64(averageVisitLength),
+		})
+	}
+
+	return response, nil
+}
+
+func (m *MatomoClient) GetMockSessionsByDevice() ([]SessionsByDeviceResponse, error) {
+	var deviceList []DataResponse
+
+	file, err := os.Open("mock_device_list.json")
+	if err != nil {
+		return nil, err
+	}
+	defer file.Close()
+
+	if err := json.NewDecoder(file).Decode(&deviceList); err != nil {
 		return nil, err
 	}
 
