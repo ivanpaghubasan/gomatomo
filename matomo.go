@@ -16,26 +16,7 @@ type MatomoClient struct {
 	ScriptHost string
 }
 
-type DataResponse struct {
-	Label             string  `json:"label"`
-	NbUniqVisitors    int64   `json:"nb_uniq_visitors"`
-	NbVisits          int64   `json:"nb_visits"`
-	NbActions         int64   `json:"nb_actions"`
-	NbUsers           int64   `json:"nb_users"`
-	MaxActions        int64   `json:"max_actions"`
-	SumVisitLength    int64   `json:"sum_visit_length"`
-	BounceCount       int64   `json:"bounce_count"`
-	NbVisitsConverted int64   `json:"nb_visits_converted"`
-	Goals             any     `json:"goals"`
-	NbConversions     int64   `json:"nb_conversions"`
-	Revenue           float64 `json:"revenue"`
-	Code              string  `json:"us"`
-	Logo              string  `json:"logo"`
-	Segment           string  `json:"segment"`
-	LogoHeight        int32   `json:"logoHeight"`
-}
-
-func NewClient(baseURL, tokenAuth, scriptHost string, ) *MatomoClient {
+func NewClient(baseURL, tokenAuth, scriptHost string) *MatomoClient {
 	return &MatomoClient{
 		BaseURL:    baseURL,
 		TokenAuth:  tokenAuth,

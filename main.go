@@ -15,24 +15,34 @@ func main() {
 	}
 
 	client := NewClient(os.Getenv("MATOMO_URL"), os.Getenv("MATOMO_TOKEN"), os.Getenv("MATOMO_SCRIPT_URL"))
-
-	userLogin := "john.doe"
-
-	siteID, login, password, script, err := client.ProvisionTelemetry(
-		userLogin,
-		fmt.Sprintf("%s@example.com", userLogin),
-		"John Doe Website",
-		"http://johndoe.com",
-	)
-
+	list, err := client.GetMockSessionsByDevice()
 	if err != nil {
-		log.Fatalf("Provisioning failed: %v", err)
+		log.Fatal(err)
 	}
+	fmt.Println(list)
 
-	fmt.Println("Matomo site ID:", siteID)
-	fmt.Println("Matomo user login:", login)
-	if password != "" {
-		fmt.Println("Initial password:", password)
+	list2, err := client.GetMockAudienceByCountry()
+	if err != nil {
+		log.Fatal(err)
 	}
-	fmt.Println("Tracking script:\n", script)
+	fmt.Println(list2)
+	// userLogin := "john.doe"
+
+	// siteID, login, password, script, err := client.ProvisionTelemetry(
+	// 	userLogin,
+	// 	fmt.Sprintf("%s@example.com", userLogin),
+	// 	"John Doe Website",
+	// 	"http://johndoe.com",
+	// )
+
+	// if err != nil {
+	// 	log.Fatalf("Provisioning failed: %v", err)
+	// }
+
+	// fmt.Println("Matomo site ID:", siteID)
+	// fmt.Println("Matomo user login:", login)
+	// if password != "" {
+	// 	fmt.Println("Initial password:", password)
+	// }
+	// fmt.Println("Tracking script:\n", script)
 }

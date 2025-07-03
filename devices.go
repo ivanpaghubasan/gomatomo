@@ -4,12 +4,33 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"log"
 	"net/http"
 	"net/url"
 	"os"
+	"strconv"
 )
 
-func (m *MatomoClient) GetDeviceList(siteID string) ([]DataResponse, error) {
+type DevicesDetectionResponse struct {
+	Label             string      `json:"label"`
+	NbUniqVisitors    int         `json:"nb_uniq_visitors"`
+	NbVisits          int64       `json:"nb_visits"`
+	NbActions         json.Number `json:"nb_actions"`
+	NbUsers           int         `json:"nb_users"`
+	MaxActions        int         `json:"max_actions"`
+	SumVisitLength    string      `json:"sum_visit_length"`
+	BounceCount       json.Number `json:"bounce_count"`
+	NbVisitsConverted json.Number `json:"nb_visits_converted"`
+	Goals             any         `json:"goals"`
+	NbConversions     int         `json:"nb_conversions"`
+	Revenue           float32     `json:"revenue"`
+	Code              string      `json:"us"`
+	Logo              string      `json:"logo"`
+	Segment           string      `json:"segment"`
+	LogoHeight        int         `json:"logoHeight"`
+}
+
+func (m *MatomoClient) GetDeviceList(siteID string) ([]DevicesDetectionResponse, error) {
 	params := url.Values{}
 	params.Set("module", "API")
 	params.Set("method", "DevicesDetection.getType")
@@ -32,7 +53,7 @@ func (m *MatomoClient) GetDeviceList(siteID string) ([]DataResponse, error) {
 		return nil, fmt.Errorf("error on reading response body devicesdetection.gettype: %v ", string(body))
 	}
 
-	var response []DataResponse
+	var response []DevicesDetectionResponse
 
 	json.Unmarshal([]byte(body), &response)
 
@@ -46,7 +67,7 @@ type SessionsByDeviceResponse struct {
 }
 
 func (m *MatomoClient) GetSessionsByDevice(siteID string) ([]SessionsByDeviceResponse, error) {
-	var deviceList []DataResponse
+	var deviceList []DevicesDetectionResponse
 	deviceList, err := m.GetDeviceList(siteID)
 	if err != nil {
 		return nil, err
@@ -66,11 +87,27 @@ func (m *MatomoClient) GetSessionsByDevice(siteID string) ([]SessionsByDeviceRes
 
 	var response []SessionsByDeviceResponse
 	for _, data := range deviceList {
-		averageVisitLength := (data.SumVisitLength / data.NbVisits) * 100
+		var sumVisitLength float64
+		if data.SumVisitLength != "" {
+			sumVisitLength, err = strconv.ParseFloat(data.SumVisitLength, 64)
+			if err != nil {
+				log.Fatalf("error on string conversion to float64 %v", err)
+			}
+		} else {
+			sumVisitLength = 0
+		}
+
+		var averageVisitLength float64
+		if data.NbVisits > 0 {
+			averageVisitLength = (sumVisitLength / float64(data.NbVisits)) * 100
+		} else {
+			averageVisitLength = 0
+		}
+
 		response = append(response, SessionsByDeviceResponse{
 			Device:             data.Label,
 			Visits:             data.NbVisits,
-			AverageVisitLength: float64(averageVisitLength),
+			AverageVisitLength: averageVisitLength,
 		})
 	}
 
@@ -78,7 +115,7 @@ func (m *MatomoClient) GetSessionsByDevice(siteID string) ([]SessionsByDeviceRes
 }
 
 func (m *MatomoClient) GetMockSessionsByDevice() ([]SessionsByDeviceResponse, error) {
-	var deviceList []DataResponse
+	var deviceList []DevicesDetectionResponse
 
 	file, err := os.Open("mock_device_list.json")
 	if err != nil {
@@ -92,11 +129,27 @@ func (m *MatomoClient) GetMockSessionsByDevice() ([]SessionsByDeviceResponse, er
 
 	var response []SessionsByDeviceResponse
 	for _, data := range deviceList {
-		averageVisitLength := (data.SumVisitLength / data.NbVisits) * 100
+		var sumVisitLength float64
+		if data.SumVisitLength != "" {
+			sumVisitLength, err = strconv.ParseFloat(data.SumVisitLength, 64)
+			if err != nil {
+				log.Fatalf("error on string conversion to float64 %v", err)
+			}
+		} else {
+			sumVisitLength = 0
+		}
+
+		var averageVisitLength float64
+		if data.NbVisits > 0 {
+			averageVisitLength = (sumVisitLength / float64(data.NbVisits)) * 100
+		} else {
+			averageVisitLength = 0
+		}
+
 		response = append(response, SessionsByDeviceResponse{
 			Device:             data.Label,
 			Visits:             data.NbVisits,
-			AverageVisitLength: float64(averageVisitLength),
+			AverageVisitLength: averageVisitLength,
 		})
 	}
 
