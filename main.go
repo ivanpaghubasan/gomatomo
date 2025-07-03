@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/ivanpaghubasan/go-matomo/matomo"
+	"github.com/ivanpaghubasan/gomatomo/matomo"
 	"github.com/joho/godotenv"
 )
 
@@ -15,19 +15,15 @@ func main() {
 		log.Fatal("Error loading .env file")
 	}
 
-	client := &matomo.MatomoClient{
-		BaseURL:    os.Getenv("MATOMO_URL"),
-		ScriptHost: os.Getenv("MATOMO_SCRIPT_URL"),
-		TokenAuth:  os.Getenv("MATOMO_TOKEN"),
-	}
+	client := matomo.InitClient(os.Getenv("MATOMO_URL"), os.Getenv("MATOMO_TOKEN"), os.Getenv("MATOMO_SCRIPT_URL"))
 
-	userLogin := "ivan.paghubasan"
+	userLogin := "john.doe"
 
 	siteID, login, password, script, err := client.ProvisionTelemetry(
 		userLogin,
 		fmt.Sprintf("%s@example.com", userLogin),
-		"SnapToApp",
-		"https://snaptoapp.com",
+		"John Doe Website",
+		"http://johndoe.com",
 	)
 
 	if err != nil {
@@ -35,7 +31,7 @@ func main() {
 	}
 
 	fmt.Println("Matomo site ID:", siteID)
-	fmt.Println("Matomo login:", login)
+	fmt.Println("Matomo user login:", login)
 	if password != "" {
 		fmt.Println("Initial password:", password)
 	}

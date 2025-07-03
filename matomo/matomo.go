@@ -3,14 +3,11 @@ package matomo
 import (
 	"crypto/rand"
 	"encoding/base64"
-	"encoding/json"
 	"fmt"
 	"io"
-	"strconv"
 
 	"net/http"
 	"net/url"
-	"strings"
 )
 
 type MatomoClient struct {
@@ -19,120 +16,31 @@ type MatomoClient struct {
 	ScriptHost string
 }
 
-func (m *MatomoClient) CreateUser(userLogin, password, email string) error {
-	params := url.Values{}
-	params.Set("module", "API")
-	params.Set("method", "UsersManager.addUser")
-	params.Set("userLogin", userLogin)
-	params.Set("password", password)
-	params.Set("email", email)
-	params.Set("alias", userLogin)
-	params.Set("token_auth", m.TokenAuth)
-
-	return m.callMatomo(params)
+type DataResponse struct {
+	Label             string  `json:"label"`
+	NbUniqVisitors    int64   `json:"nb_uniq_visitors"`
+	NbVisits          int64   `json:"nb_visits"`
+	NbActions         int64   `json:"nb_actions"`
+	NbUsers           int64   `json:"nb_users"`
+	MaxActions        int64   `json:"max_actions"`
+	SumVisitLength    int64   `json:"sum_visit_length"`
+	BounceCount       int64   `json:"bounce_count"`
+	NbVisitsConverted int64   `json:"nb_visits_converted"`
+	Goals             any     `json:"goals"`
+	NbConversions     int64   `json:"nb_conversions"`
+	Revenue           float64 `json:"revenue"`
+	Code              string  `json:"us"`
+	Logo              string  `json:"logo"`
+	Segment           string  `json:"segment"`
+	LogoHeight        int32   `json:"logoHeight"`
 }
 
-func (m *MatomoClient) UserExists(userEmail string) (bool, error) {
-	params := url.Values{}
-	params.Set("module", "API")
-	params.Set("method", "UsersManager.userEmailExists")
-	params.Set("userEmail", userEmail)
-	params.Set("format", "JSON")
-	params.Set("token_auth", m.TokenAuth)
-
-	endpoint := fmt.Sprintf("%s/index.php", m.BaseURL)
-
-	resp, err := http.PostForm(endpoint, params)
-	if err != nil {
-		return false, err
+func InitClient(baseURL, tokenAuth, scriptHost string) *MatomoClient {
+	return &MatomoClient{
+		BaseURL:    baseURL,
+		TokenAuth:  tokenAuth,
+		ScriptHost: scriptHost,
 	}
-	defer resp.Body.Close()
-
-	body, _ := io.ReadAll(resp.Body)
-	if resp.StatusCode != http.StatusOK {
-		return false, fmt.Errorf("matomo api useremailexists error: %s", string(body))
-	}
-
-	var response struct {
-		Value bool `json:"value"`
-	}
-	_ = json.Unmarshal([]byte(body), &response)
-
-	return bool(response.Value), nil
-}
-
-func (m *MatomoClient) AddSite(siteName, siteURL string) (string, error) {
-	params := url.Values{}
-	params.Set("module", "API")
-	params.Set("method", "SitesManager.addSite")
-	params.Add("urls[]", siteURL)
-	params.Set("siteName", siteName)
-	params.Set("format", "json")
-	params.Set("token_auth", m.TokenAuth)
-
-	endpoint := fmt.Sprintf("%s/index.php", m.BaseURL)
-	resp, err := http.PostForm(endpoint, params)
-	if err != nil {
-		return "", err
-	}
-	defer resp.Body.Close()
-
-	body, _ := io.ReadAll(resp.Body)
-
-	if resp.StatusCode != http.StatusOK || strings.Contains(string(body), "error") {
-		return "", fmt.Errorf("matomo addsite failed: %s", string(body))
-	}
-	var response struct {
-		Value int `json:"value"`
-	}
-	_ = json.Unmarshal([]byte(body), &response)
-
-	return strconv.Itoa(response.Value), nil
-}
-
-func (m *MatomoClient) SiteExists(siteURL string) (bool, error) {
-	params := url.Values{}
-	params.Set("module", "API")
-	params.Set("method", "SitesManager.getSitesIdFromSiteUrl")
-	params.Set("url", siteURL)
-	params.Set("format", "JSON")
-	params.Set("token_auth", m.TokenAuth)
-
-	endpoint := fmt.Sprintf("%s/index.php", m.BaseURL)
-
-	resp, err := http.PostForm(endpoint, params)
-	if err != nil {
-		return false, err
-	}
-	defer resp.Body.Close()
-
-	body, _ := io.ReadAll(resp.Body)
-
-	if resp.StatusCode != http.StatusOK {
-		return false, fmt.Errorf("matomo api error: %s", string(body))
-	}
-	var response []struct {
-		IdSite int `json:"idsite"`
-	}
-
-	_ = json.Unmarshal([]byte(body), &response)
-
-	if len(response) > 0 {
-		return true, nil
-	}
-	return false, nil
-}
-
-func (m *MatomoClient) SetUserAccess(userLogin, siteID string) error {
-	params := url.Values{}
-	params.Set("module", "API")
-	params.Set("method", "UsersManager.setUserAccess")
-	params.Set("userLogin", userLogin)
-	params.Set("access", "view")
-	params.Set("idSites", siteID)
-	params.Set("token_auth", m.TokenAuth)
-
-	return m.callMatomo(params)
 }
 
 func (m *MatomoClient) GenerateTrackingScript(siteID string) string {
@@ -205,35 +113,6 @@ func (m *MatomoClient) callMatomo(params url.Values) error {
 	}
 
 	return nil
-}
-
-func (m *MatomoClient) InviteUser(userLogin, userEmail string) error {
-	params := url.Values{}
-	params.Set("module", "API")
-	params.Set("method", "UsersManager.inviteUser")
-	params.Set("userLogin", userLogin)
-	params.Set("email", userEmail)
-	params.Set("format", "JSON")
-	params.Set("initialIdSite", "1")
-	params.Set("token_auth", m.TokenAuth)
-
-	endpoint := fmt.Sprintf("%s/index.php", m.BaseURL)
-	resp, err := http.PostForm(endpoint, params)
-	if err != nil {
-		return nil
-	}
-	defer resp.Body.Close()
-
-	body, _ := io.ReadAll(resp.Body)
-	var response struct {
-		Result  string `json:"result"`
-		Message string `json:"message"`
-	}
-	_ = response
-	fmt.Printf("response body: %s", string(body))
-
-	return nil
-
 }
 
 func generateSecurePassword() string {
