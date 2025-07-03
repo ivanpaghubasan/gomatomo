@@ -8,9 +8,7 @@ import (
 	"net/url"
 )
 
-
-
-func (m *MatomoClient) GetCountry(siteID string) ([]DataResponse, error) {
+func (m *MatomoClient) GetCountryList(siteID string) ([]DataResponse, error) {
 	params := url.Values{}
 	params.Set("module", "API")
 	params.Set("method", "UserCountry.getCountry")
@@ -36,6 +34,31 @@ func (m *MatomoClient) GetCountry(siteID string) ([]DataResponse, error) {
 	var response []DataResponse
 
 	json.Unmarshal([]byte(body), &response)
+
+	return response, nil
+}
+
+type AudienceByCountryResponse struct {
+	Country    string  `json:"country"`
+	PageViews  int64   `json:"pageViews"`
+	BounceRate float64 `json:"bounceRate"`
+}
+
+func (m *MatomoClient) GetAudienceByCountry(siteID string) ([]AudienceByCountryResponse, error) {
+	audienceList, err := m.GetDeviceList(siteID)
+	if err != nil {
+		return nil, err
+	}
+
+	var response []AudienceByCountryResponse
+	for _, data := range audienceList {
+		bounceRate := (data.BounceCount / data.NbVisits) * 100
+		response = append(response, AudienceByCountryResponse{
+			Country:    data.Label,
+			PageViews:  data.NbVisits,
+			BounceRate: float64(bounceRate),
+		})
+	}
 
 	return response, nil
 }

@@ -1,0 +1,3171 @@
+[
+  {
+    "label": "United States",
+    "nb_uniq_visitors": 1776,
+    "nb_visits": 1912,
+    "nb_actions": 5072,
+    "nb_users": 1,
+    "max_actions": 60,
+    "sum_visit_length": 406386,
+    "bounce_count": 1199,
+    "nb_visits_converted": 194,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 122,
+        "nb_visits_converted": 122,
+        "revenue": 30155.65,
+        "items": 195
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 79,
+        "nb_visits_converted": 75,
+        "revenue": 19243.05,
+        "revenue_subtotal": 30818.48,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 2930.75,
+        "items": 128
+      },
+      "idgoal=4": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 3
+      },
+      "idgoal=6": {
+        "nb_conversions": 4,
+        "nb_visits_converted": 4,
+        "revenue": 8
+      },
+      "idgoal=7": {
+        "nb_conversions": 89,
+        "nb_visits_converted": 89,
+        "revenue": 89
+      },
+      "idgoal=8": {
+        "nb_conversions": 23,
+        "nb_visits_converted": 23,
+        "revenue": 0
+      },
+      "idgoal=9": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      },
+      "idgoal=10": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 200,
+    "revenue": 19343.05,
+    "code": "us",
+    "logo": "plugins/Morpheus/icons/dist/flags/us.png",
+    "segment": "countryCode==us",
+    "logoHeight": 16
+  },
+  {
+    "label": "United Kingdom",
+    "nb_uniq_visitors": 762,
+    "nb_visits": 818,
+    "nb_actions": 1905,
+    "nb_users": 0,
+    "max_actions": 33,
+    "sum_visit_length": 148112,
+    "bounce_count": 491,
+    "nb_visits_converted": 51,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 35,
+        "nb_visits_converted": 35,
+        "revenue": 8027.75,
+        "items": 52
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 16,
+        "nb_visits_converted": 15,
+        "revenue": 3225.65,
+        "revenue_subtotal": 1935,
+        "revenue_tax": 121.2,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 16
+      },
+      "idgoal=4": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      },
+      "idgoal=6": {
+        "nb_conversions": 4,
+        "nb_visits_converted": 4,
+        "revenue": 8
+      },
+      "idgoal=7": {
+        "nb_conversions": 24,
+        "nb_visits_converted": 24,
+        "revenue": 24
+      },
+      "idgoal=8": {
+        "nb_conversions": 10,
+        "nb_visits_converted": 10,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 55,
+    "revenue": 3258.65,
+    "code": "gb",
+    "logo": "plugins/Morpheus/icons/dist/flags/gb.png",
+    "segment": "countryCode==gb",
+    "logoHeight": 16
+  },
+  {
+    "label": "Australia",
+    "nb_uniq_visitors": 749,
+    "nb_visits": 813,
+    "nb_actions": 1777,
+    "nb_users": 0,
+    "max_actions": 23,
+    "sum_visit_length": 144472,
+    "bounce_count": 516,
+    "nb_visits_converted": 87,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 24,
+        "nb_visits_converted": 24,
+        "revenue": 4239.35,
+        "items": 24
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 14,
+        "nb_visits_converted": 14,
+        "revenue": 4550.55,
+        "revenue_subtotal": 1746,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 14
+      },
+      "idgoal=7": {
+        "nb_conversions": 54,
+        "nb_visits_converted": 54,
+        "revenue": 54
+      },
+      "idgoal=8": {
+        "nb_conversions": 23,
+        "nb_visits_converted": 23,
+        "revenue": 0
+      },
+      "idgoal=9": {
+        "nb_conversions": 4,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 95,
+    "revenue": 4604.55,
+    "code": "au",
+    "logo": "plugins/Morpheus/icons/dist/flags/au.png",
+    "segment": "countryCode==au",
+    "logoHeight": 16
+  },
+  {
+    "label": "Germany",
+    "nb_uniq_visitors": 531,
+    "nb_visits": 597,
+    "nb_actions": 3807,
+    "nb_users": 0,
+    "max_actions": 36,
+    "sum_visit_length": 424334,
+    "bounce_count": 170,
+    "nb_visits_converted": 130,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 207,
+        "nb_visits_converted": 207,
+        "revenue": 29585.55,
+        "items": 295
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 119,
+        "nb_visits_converted": 117,
+        "revenue": 21337,
+        "revenue_subtotal": 27179.44,
+        "revenue_tax": 1098.96,
+        "revenue_shipping": 0,
+        "revenue_discount": 2082.8,
+        "items": 142
+      },
+      "idgoal=7": {
+        "nb_conversions": 9,
+        "nb_visits_converted": 9,
+        "revenue": 9
+      },
+      "idgoal=8": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      },
+      "idgoal=10": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 132,
+    "revenue": 21346,
+    "code": "de",
+    "logo": "plugins/Morpheus/icons/dist/flags/de.png",
+    "segment": "countryCode==de",
+    "logoHeight": 16
+  },
+  {
+    "label": "Canada",
+    "nb_uniq_visitors": 526,
+    "nb_visits": 546,
+    "nb_actions": 1156,
+    "nb_users": 1,
+    "max_actions": 25,
+    "sum_visit_length": 83333,
+    "bounce_count": 363,
+    "nb_visits_converted": 37,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 13,
+        "nb_visits_converted": 13,
+        "revenue": 1167.6,
+        "items": 17
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 14,
+        "nb_visits_converted": 14,
+        "revenue": 2270.55,
+        "revenue_subtotal": 2326,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 376,
+        "items": 16
+      },
+      "idgoal=4": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      },
+      "idgoal=6": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 4
+      },
+      "idgoal=7": {
+        "nb_conversions": 13,
+        "nb_visits_converted": 13,
+        "revenue": 13
+      },
+      "idgoal=8": {
+        "nb_conversions": 8,
+        "nb_visits_converted": 8,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 38,
+    "revenue": 2288.55,
+    "code": "ca",
+    "logo": "plugins/Morpheus/icons/dist/flags/ca.png",
+    "segment": "countryCode==ca",
+    "logoHeight": 16
+  },
+  {
+    "label": "Indonesia",
+    "nb_uniq_visitors": 487,
+    "nb_visits": 534,
+    "nb_actions": 1114,
+    "nb_users": 0,
+    "max_actions": 42,
+    "sum_visit_length": 79964,
+    "bounce_count": 356,
+    "nb_visits_converted": 24,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 10,
+        "nb_visits_converted": 10,
+        "revenue": 344.6,
+        "items": 14
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 179.8,
+        "revenue_subtotal": 356,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 4
+      },
+      "idgoal=5": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 5
+      },
+      "idgoal=6": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 2
+      },
+      "idgoal=7": {
+        "nb_conversions": 15,
+        "nb_visits_converted": 15,
+        "revenue": 15
+      },
+      "idgoal=8": {
+        "nb_conversions": 7,
+        "nb_visits_converted": 7,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 25,
+    "revenue": 201.8,
+    "code": "id",
+    "logo": "plugins/Morpheus/icons/dist/flags/id.png",
+    "segment": "countryCode==id",
+    "logoHeight": 16
+  },
+  {
+    "label": "Singapore",
+    "nb_uniq_visitors": 324,
+    "nb_visits": 360,
+    "nb_actions": 685,
+    "nb_users": 0,
+    "max_actions": 22,
+    "sum_visit_length": 48013,
+    "bounce_count": 257,
+    "nb_visits_converted": 20,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 6,
+        "nb_visits_converted": 6,
+        "revenue": 3000,
+        "items": 6
+      },
+      "idgoal=6": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 2
+      },
+      "idgoal=7": {
+        "nb_conversions": 12,
+        "nb_visits_converted": 12,
+        "revenue": 12
+      },
+      "idgoal=8": {
+        "nb_conversions": 10,
+        "nb_visits_converted": 10,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 23,
+    "revenue": 14,
+    "code": "sg",
+    "logo": "plugins/Morpheus/icons/dist/flags/sg.png",
+    "segment": "countryCode==sg",
+    "logoHeight": 16
+  },
+  {
+    "label": "Philippines",
+    "nb_uniq_visitors": 344,
+    "nb_visits": 357,
+    "nb_actions": 568,
+    "nb_users": 0,
+    "max_actions": 17,
+    "sum_visit_length": 32428,
+    "bounce_count": 272,
+    "nb_visits_converted": 21,
+    "goals": {
+      "idgoal=4": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 2
+      },
+      "idgoal=6": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 4
+      },
+      "idgoal=7": {
+        "nb_conversions": 9,
+        "nb_visits_converted": 9,
+        "revenue": 9
+      },
+      "idgoal=8": {
+        "nb_conversions": 10,
+        "nb_visits_converted": 10,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 23,
+    "revenue": 15,
+    "code": "ph",
+    "logo": "plugins/Morpheus/icons/dist/flags/ph.png",
+    "segment": "countryCode==ph",
+    "logoHeight": 16
+  },
+  {
+    "label": "Malaysia",
+    "nb_uniq_visitors": 295,
+    "nb_visits": 311,
+    "nb_actions": 545,
+    "nb_users": 0,
+    "max_actions": 15,
+    "sum_visit_length": 27646,
+    "bounce_count": 217,
+    "nb_visits_converted": 19,
+    "goals": {
+      "idgoal=6": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 2
+      },
+      "idgoal=7": {
+        "nb_conversions": 12,
+        "nb_visits_converted": 12,
+        "revenue": 12
+      },
+      "idgoal=8": {
+        "nb_conversions": 7,
+        "nb_visits_converted": 7,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 20,
+    "revenue": 14,
+    "code": "my",
+    "logo": "plugins/Morpheus/icons/dist/flags/my.png",
+    "segment": "countryCode==my",
+    "logoHeight": 16
+  },
+  {
+    "label": "Thailand",
+    "nb_uniq_visitors": 292,
+    "nb_visits": 305,
+    "nb_actions": 648,
+    "nb_users": 0,
+    "max_actions": 23,
+    "sum_visit_length": 45713,
+    "bounce_count": 202,
+    "nb_visits_converted": 16,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 185.95,
+        "items": 3
+      },
+      "idgoal=6": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 2
+      },
+      "idgoal=7": {
+        "nb_conversions": 8,
+        "nb_visits_converted": 8,
+        "revenue": 8
+      },
+      "idgoal=8": {
+        "nb_conversions": 7,
+        "nb_visits_converted": 7,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 16,
+    "revenue": 10,
+    "code": "th",
+    "logo": "plugins/Morpheus/icons/dist/flags/th.png",
+    "segment": "countryCode==th",
+    "logoHeight": 16
+  },
+  {
+    "label": "India",
+    "nb_uniq_visitors": 264,
+    "nb_visits": 291,
+    "nb_actions": 953,
+    "nb_users": 0,
+    "max_actions": 24,
+    "sum_visit_length": 91075,
+    "bounce_count": 153,
+    "nb_visits_converted": 11,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 51,
+        "nb_visits_converted": 51,
+        "revenue": 12555.55,
+        "items": 68
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 5,
+        "nb_visits_converted": 3,
+        "revenue": 306.9,
+        "revenue_subtotal": 1957,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 13
+      },
+      "idgoal=4": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 2
+      },
+      "idgoal=5": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 10
+      },
+      "idgoal=6": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 4
+      },
+      "idgoal=7": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 3
+      }
+    },
+    "nb_conversions": 14,
+    "revenue": 325.9,
+    "code": "in",
+    "logo": "plugins/Morpheus/icons/dist/flags/in.png",
+    "segment": "countryCode==in",
+    "logoHeight": 16
+  },
+  {
+    "label": "Netherlands",
+    "nb_uniq_visitors": 208,
+    "nb_visits": 235,
+    "nb_actions": 1126,
+    "nb_users": 0,
+    "max_actions": 49,
+    "sum_visit_length": 103087,
+    "bounce_count": 101,
+    "nb_visits_converted": 32,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 55,
+        "nb_visits_converted": 55,
+        "revenue": 7208.65,
+        "items": 138
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 21,
+        "nb_visits_converted": 21,
+        "revenue": 2759.25,
+        "revenue_subtotal": 6315.4,
+        "revenue_tax": 231.21,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 24
+      },
+      "idgoal=7": {
+        "nb_conversions": 6,
+        "nb_visits_converted": 6,
+        "revenue": 6
+      },
+      "idgoal=8": {
+        "nb_conversions": 5,
+        "nb_visits_converted": 5,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 32,
+    "revenue": 2765.25,
+    "code": "nl",
+    "logo": "plugins/Morpheus/icons/dist/flags/nl.png",
+    "segment": "countryCode==nl",
+    "logoHeight": 16
+  },
+  {
+    "label": "France",
+    "nb_uniq_visitors": 173,
+    "nb_visits": 193,
+    "nb_actions": 942,
+    "nb_users": 0,
+    "max_actions": 71,
+    "sum_visit_length": 82215,
+    "bounce_count": 89,
+    "nb_visits_converted": 25,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 31,
+        "nb_visits_converted": 31,
+        "revenue": 6177.9,
+        "items": 44
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 20,
+        "nb_visits_converted": 18,
+        "revenue": 6599.35,
+        "revenue_subtotal": 4609,
+        "revenue_tax": 127.2,
+        "revenue_shipping": 0,
+        "revenue_discount": 2203,
+        "items": 31
+      },
+      "idgoal=4": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      },
+      "idgoal=5": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 5
+      },
+      "idgoal=7": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 3
+      },
+      "idgoal=8": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      },
+      "idgoal=10": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 27,
+    "revenue": 6608.35,
+    "code": "fr",
+    "logo": "plugins/Morpheus/icons/dist/flags/fr.png",
+    "segment": "countryCode==fr",
+    "logoHeight": 16
+  },
+  {
+    "label": "Spain",
+    "nb_uniq_visitors": 168,
+    "nb_visits": 184,
+    "nb_actions": 712,
+    "nb_users": 0,
+    "max_actions": 71,
+    "sum_visit_length": 72638,
+    "bounce_count": 95,
+    "nb_visits_converted": 24,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 25,
+        "nb_visits_converted": 25,
+        "revenue": 3589.2,
+        "items": 33
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 9,
+        "nb_visits_converted": 9,
+        "revenue": 1272.65,
+        "revenue_subtotal": 1919,
+        "revenue_tax": 35.28,
+        "revenue_shipping": 0,
+        "revenue_discount": 179.7,
+        "items": 11
+      },
+      "idgoal=5": {
+        "nb_conversions": 6,
+        "nb_visits_converted": 6,
+        "revenue": 30
+      },
+      "idgoal=6": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 6
+      },
+      "idgoal=7": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 2
+      },
+      "idgoal=8": {
+        "nb_conversions": 4,
+        "nb_visits_converted": 4,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 24,
+    "revenue": 1310.65,
+    "code": "es",
+    "logo": "plugins/Morpheus/icons/dist/flags/es.png",
+    "segment": "countryCode==es",
+    "logoHeight": 16
+  },
+  {
+    "label": "Switzerland",
+    "nb_uniq_visitors": 150,
+    "nb_visits": 162,
+    "nb_actions": 719,
+    "nb_users": 1,
+    "max_actions": 35,
+    "sum_visit_length": 65390,
+    "bounce_count": 74,
+    "nb_visits_converted": 28,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 30,
+        "nb_visits_converted": 30,
+        "revenue": 6478.45,
+        "items": 33
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 19,
+        "nb_visits_converted": 19,
+        "revenue": 5594.8,
+        "revenue_subtotal": 5091.55,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 29.9,
+        "items": 20
+      },
+      "idgoal=5": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 10
+      },
+      "idgoal=6": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 4
+      },
+      "idgoal=7": {
+        "nb_conversions": 5,
+        "nb_visits_converted": 5,
+        "revenue": 5
+      }
+    },
+    "nb_conversions": 28,
+    "revenue": 5613.8,
+    "code": "ch",
+    "logo": "plugins/Morpheus/icons/dist/flags/ch.png",
+    "segment": "countryCode==ch",
+    "logoHeight": 16
+  },
+  {
+    "label": "Hong Kong SAR China",
+    "nb_uniq_visitors": 136,
+    "nb_visits": 147,
+    "nb_actions": 335,
+    "nb_users": 0,
+    "max_actions": 20,
+    "sum_visit_length": 24429,
+    "bounce_count": 95,
+    "nb_visits_converted": 11,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 519.95,
+        "items": 2
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 500,
+        "revenue_subtotal": 229,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 1
+      },
+      "idgoal=7": {
+        "nb_conversions": 8,
+        "nb_visits_converted": 8,
+        "revenue": 8
+      },
+      "idgoal=8": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 11,
+    "revenue": 508,
+    "code": "hk",
+    "logo": "plugins/Morpheus/icons/dist/flags/hk.png",
+    "segment": "countryCode==hk",
+    "logoHeight": 16
+  },
+  {
+    "label": "Italy",
+    "nb_uniq_visitors": 117,
+    "nb_visits": 139,
+    "nb_actions": 453,
+    "nb_users": 1,
+    "max_actions": 16,
+    "sum_visit_length": 62756,
+    "bounce_count": 65,
+    "nb_visits_converted": 17,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 18,
+        "nb_visits_converted": 18,
+        "revenue": 5208.75,
+        "items": 21
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 10,
+        "nb_visits_converted": 10,
+        "revenue": 1116.7,
+        "revenue_subtotal": 1200,
+        "revenue_tax": 150.92,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 10
+      },
+      "idgoal=6": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 2
+      },
+      "idgoal=7": {
+        "nb_conversions": 5,
+        "nb_visits_converted": 5,
+        "revenue": 5
+      },
+      "idgoal=8": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 19,
+    "revenue": 1123.7,
+    "code": "it",
+    "logo": "plugins/Morpheus/icons/dist/flags/it.png",
+    "segment": "countryCode==it",
+    "logoHeight": 16
+  },
+  {
+    "label": "China",
+    "nb_uniq_visitors": 107,
+    "nb_visits": 134,
+    "nb_actions": 769,
+    "nb_users": 0,
+    "max_actions": 34,
+    "sum_visit_length": 107925,
+    "bounce_count": 43,
+    "nb_visits_converted": 15,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 63,
+        "nb_visits_converted": 63,
+        "revenue": 23096.4,
+        "items": 92
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 14,
+        "nb_visits_converted": 12,
+        "revenue": 4260.55,
+        "revenue_subtotal": 1856,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 14
+      },
+      "idgoal=7": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 3
+      }
+    },
+    "nb_conversions": 17,
+    "revenue": 4263.55,
+    "code": "cn",
+    "logo": "plugins/Morpheus/icons/dist/flags/cn.png",
+    "segment": "countryCode==cn",
+    "logoHeight": 16
+  },
+  {
+    "label": "New Zealand",
+    "nb_uniq_visitors": 103,
+    "nb_visits": 110,
+    "nb_actions": 308,
+    "nb_users": 0,
+    "max_actions": 18,
+    "sum_visit_length": 18160,
+    "bounce_count": 64,
+    "nb_visits_converted": 3,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 13,
+        "nb_visits_converted": 13,
+        "revenue": 2072.15,
+        "items": 54
+      },
+      "idgoal=7": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 3
+      }
+    },
+    "nb_conversions": 3,
+    "revenue": 3,
+    "code": "nz",
+    "logo": "plugins/Morpheus/icons/dist/flags/nz.png",
+    "segment": "countryCode==nz",
+    "logoHeight": 16
+  },
+  {
+    "label": "Japan",
+    "nb_uniq_visitors": 89,
+    "nb_visits": 102,
+    "nb_actions": 359,
+    "nb_users": 0,
+    "max_actions": 20,
+    "sum_visit_length": 35884,
+    "bounce_count": 57,
+    "nb_visits_converted": 16,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 17,
+        "nb_visits_converted": 17,
+        "revenue": 2559.5,
+        "items": 17
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 12,
+        "nb_visits_converted": 12,
+        "revenue": 3444.7,
+        "revenue_subtotal": 2464,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 16
+      },
+      "idgoal=7": {
+        "nb_conversions": 4,
+        "nb_visits_converted": 4,
+        "revenue": 4
+      }
+    },
+    "nb_conversions": 16,
+    "revenue": 3448.7,
+    "code": "jp",
+    "logo": "plugins/Morpheus/icons/dist/flags/jp.png",
+    "segment": "countryCode==jp",
+    "logoHeight": 16
+  },
+  {
+    "label": "Sweden",
+    "nb_uniq_visitors": 87,
+    "nb_visits": 93,
+    "nb_actions": 367,
+    "nb_users": 0,
+    "max_actions": 36,
+    "sum_visit_length": 33951,
+    "bounce_count": 49,
+    "nb_visits_converted": 5,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 10,
+        "nb_visits_converted": 10,
+        "revenue": 988.6,
+        "items": 25
+      },
+      "idgoal=4": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      },
+      "idgoal=6": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 2
+      },
+      "idgoal=7": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 3
+      }
+    },
+    "nb_conversions": 5,
+    "revenue": 6,
+    "code": "se",
+    "logo": "plugins/Morpheus/icons/dist/flags/se.png",
+    "segment": "countryCode==se",
+    "logoHeight": 16
+  },
+  {
+    "label": "Egypt",
+    "nb_uniq_visitors": 81,
+    "nb_visits": 88,
+    "nb_actions": 187,
+    "nb_users": 0,
+    "max_actions": 9,
+    "sum_visit_length": 12904,
+    "bounce_count": 55,
+    "nb_visits_converted": 6,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 4,
+        "nb_visits_converted": 4,
+        "revenue": 1589.9,
+        "items": 5
+      },
+      "idgoal=7": {
+        "nb_conversions": 4,
+        "nb_visits_converted": 4,
+        "revenue": 4
+      },
+      "idgoal=8": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 7,
+    "revenue": 4,
+    "code": "eg",
+    "logo": "plugins/Morpheus/icons/dist/flags/eg.png",
+    "segment": "countryCode==eg",
+    "logoHeight": 16
+  },
+  {
+    "label": "Vietnam",
+    "nb_uniq_visitors": 74,
+    "nb_visits": 86,
+    "nb_actions": 443,
+    "nb_users": 0,
+    "max_actions": 37,
+    "sum_visit_length": 42847,
+    "bounce_count": 41,
+    "nb_visits_converted": 6,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 21,
+        "nb_visits_converted": 21,
+        "revenue": 1689,
+        "items": 29
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 4,
+        "nb_visits_converted": 4,
+        "revenue": 1039.9,
+        "revenue_subtotal": 1291.9,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 6
+      },
+      "idgoal=7": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 2
+      }
+    },
+    "nb_conversions": 6,
+    "revenue": 1041.9,
+    "code": "vn",
+    "logo": "plugins/Morpheus/icons/dist/flags/vn.png",
+    "segment": "countryCode==vn",
+    "logoHeight": 16
+  },
+  {
+    "label": "United Arab Emirates",
+    "nb_uniq_visitors": 77,
+    "nb_visits": 83,
+    "nb_actions": 144,
+    "nb_users": 0,
+    "max_actions": 16,
+    "sum_visit_length": 5986,
+    "bounce_count": 61,
+    "nb_visits_converted": 1,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 295.9,
+        "items": 2
+      },
+      "idgoal=7": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      }
+    },
+    "nb_conversions": 1,
+    "revenue": 1,
+    "code": "ae",
+    "logo": "plugins/Morpheus/icons/dist/flags/ae.png",
+    "segment": "countryCode==ae",
+    "logoHeight": 16
+  },
+  {
+    "label": "Belgium",
+    "nb_uniq_visitors": 75,
+    "nb_visits": 81,
+    "nb_actions": 202,
+    "nb_users": 0,
+    "max_actions": 16,
+    "sum_visit_length": 10169,
+    "bounce_count": 54,
+    "nb_visits_converted": 4,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 39.9,
+        "items": 2
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 109.95,
+        "revenue_subtotal": 49,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 1
+      },
+      "idgoal=7": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      },
+      "idgoal=8": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 4,
+    "revenue": 110.95,
+    "code": "be",
+    "logo": "plugins/Morpheus/icons/dist/flags/be.png",
+    "segment": "countryCode==be",
+    "logoHeight": 16
+  },
+  {
+    "label": "South Africa",
+    "nb_uniq_visitors": 71,
+    "nb_visits": 77,
+    "nb_actions": 227,
+    "nb_users": 1,
+    "max_actions": 23,
+    "sum_visit_length": 23936,
+    "bounce_count": 41,
+    "nb_visits_converted": 15,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 19.95,
+        "items": 1
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 39.9,
+        "revenue_subtotal": 398,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 2
+      },
+      "idgoal=4": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 2
+      },
+      "idgoal=6": {
+        "nb_conversions": 4,
+        "nb_visits_converted": 4,
+        "revenue": 8
+      },
+      "idgoal=7": {
+        "nb_conversions": 5,
+        "nb_visits_converted": 5,
+        "revenue": 5
+      },
+      "idgoal=8": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 15,
+    "revenue": 54.9,
+    "code": "za",
+    "logo": "plugins/Morpheus/icons/dist/flags/za.png",
+    "segment": "countryCode==za",
+    "logoHeight": 16
+  },
+  {
+    "label": "Poland",
+    "nb_uniq_visitors": 64,
+    "nb_visits": 71,
+    "nb_actions": 282,
+    "nb_users": 0,
+    "max_actions": 36,
+    "sum_visit_length": 27531,
+    "bounce_count": 28,
+    "nb_visits_converted": 6,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 8,
+        "nb_visits_converted": 8,
+        "revenue": 1965.9,
+        "items": 9
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 119.85,
+        "revenue_subtotal": 248.56,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 95.74,
+        "items": 3
+      },
+      "idgoal=7": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 3
+      },
+      "idgoal=8": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 7,
+    "revenue": 122.85,
+    "code": "pl",
+    "logo": "plugins/Morpheus/icons/dist/flags/pl.png",
+    "segment": "countryCode==pl",
+    "logoHeight": 16
+  },
+  {
+    "label": "Taiwan",
+    "nb_uniq_visitors": 57,
+    "nb_visits": 69,
+    "nb_actions": 299,
+    "nb_users": 0,
+    "max_actions": 20,
+    "sum_visit_length": 27391,
+    "bounce_count": 30,
+    "nb_visits_converted": 7,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 17,
+        "nb_visits_converted": 17,
+        "revenue": 175.2,
+        "items": 16
+      },
+      "idgoal=7": {
+        "nb_conversions": 5,
+        "nb_visits_converted": 5,
+        "revenue": 5
+      },
+      "idgoal=8": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 7,
+    "revenue": 5,
+    "code": "tw",
+    "logo": "plugins/Morpheus/icons/dist/flags/tw.png",
+    "segment": "countryCode==tw",
+    "logoHeight": 16
+  },
+  {
+    "label": "Denmark",
+    "nb_uniq_visitors": 60,
+    "nb_visits": 67,
+    "nb_actions": 126,
+    "nb_users": 0,
+    "max_actions": 15,
+    "sum_visit_length": 8289,
+    "bounce_count": 47,
+    "nb_visits_converted": 2,
+    "goals": {
+      "idgoal=7": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 2
+      }
+    },
+    "nb_conversions": 2,
+    "revenue": 2,
+    "code": "dk",
+    "logo": "plugins/Morpheus/icons/dist/flags/dk.png",
+    "segment": "countryCode==dk",
+    "logoHeight": 16
+  },
+  {
+    "label": "Austria",
+    "nb_uniq_visitors": 52,
+    "nb_visits": 64,
+    "nb_actions": 394,
+    "nb_users": 0,
+    "max_actions": 31,
+    "sum_visit_length": 34714,
+    "bounce_count": 24,
+    "nb_visits_converted": 10,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 21,
+        "nb_visits_converted": 21,
+        "revenue": 8847.7,
+        "items": 25
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 9,
+        "nb_visits_converted": 8,
+        "revenue": 467.65,
+        "revenue_subtotal": 2848,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 17
+      },
+      "idgoal=7": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      },
+      "idgoal=8": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 11,
+    "revenue": 468.65,
+    "code": "at",
+    "logo": "plugins/Morpheus/icons/dist/flags/at.png",
+    "segment": "countryCode==at",
+    "logoHeight": 16
+  },
+  {
+    "label": "Russia",
+    "nb_uniq_visitors": 53,
+    "nb_visits": 62,
+    "nb_actions": 249,
+    "nb_users": 0,
+    "max_actions": 16,
+    "sum_visit_length": 30065,
+    "bounce_count": 23,
+    "nb_visits_converted": 5,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 21,
+        "nb_visits_converted": 21,
+        "revenue": 5076.55,
+        "items": 24
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 1000,
+        "revenue_subtotal": 398,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 2
+      },
+      "idgoal=7": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 3
+      }
+    },
+    "nb_conversions": 5,
+    "revenue": 1003,
+    "code": "ru",
+    "logo": "plugins/Morpheus/icons/dist/flags/ru.png",
+    "segment": "countryCode==ru",
+    "logoHeight": 16
+  },
+  {
+    "label": "Brazil",
+    "nb_uniq_visitors": 51,
+    "nb_visits": 60,
+    "nb_actions": 363,
+    "nb_users": 0,
+    "max_actions": 77,
+    "sum_visit_length": 34968,
+    "bounce_count": 30,
+    "nb_visits_converted": 7,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 8,
+        "nb_visits_converted": 8,
+        "revenue": 437.6,
+        "items": 26
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 178,
+        "revenue_subtotal": 298,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 208.6,
+        "items": 2
+      },
+      "idgoal=6": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 4
+      },
+      "idgoal=7": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 3
+      }
+    },
+    "nb_conversions": 7,
+    "revenue": 185,
+    "code": "br",
+    "logo": "plugins/Morpheus/icons/dist/flags/br.png",
+    "segment": "countryCode==br",
+    "logoHeight": 16
+  },
+  {
+    "label": "Norway",
+    "nb_uniq_visitors": 51,
+    "nb_visits": 59,
+    "nb_actions": 179,
+    "nb_users": 0,
+    "max_actions": 19,
+    "sum_visit_length": 11087,
+    "bounce_count": 32,
+    "nb_visits_converted": 9,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 197.95,
+        "items": 5
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 9,
+        "nb_visits_converted": 7,
+        "revenue": 1662.75,
+        "revenue_subtotal": 2649,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 11
+      },
+      "idgoal=7": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      },
+      "idgoal=10": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 11,
+    "revenue": 1663.75,
+    "code": "no",
+    "logo": "plugins/Morpheus/icons/dist/flags/no.png",
+    "segment": "countryCode==no",
+    "logoHeight": 16
+  },
+  {
+    "label": "Israel",
+    "nb_uniq_visitors": 50,
+    "nb_visits": 56,
+    "nb_actions": 252,
+    "nb_users": 0,
+    "max_actions": 23,
+    "sum_visit_length": 38375,
+    "bounce_count": 27,
+    "nb_visits_converted": 6,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 8,
+        "nb_visits_converted": 8,
+        "revenue": 4000,
+        "items": 8
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 6,
+        "nb_visits_converted": 6,
+        "revenue": 1764.85,
+        "revenue_subtotal": 894,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 6
+      }
+    },
+    "nb_conversions": 6,
+    "revenue": 1764.85,
+    "code": "il",
+    "logo": "plugins/Morpheus/icons/dist/flags/il.png",
+    "segment": "countryCode==il",
+    "logoHeight": 16
+  },
+  {
+    "label": "Mexico",
+    "nb_uniq_visitors": 51,
+    "nb_visits": 53,
+    "nb_actions": 165,
+    "nb_users": 0,
+    "max_actions": 43,
+    "sum_visit_length": 10107,
+    "bounce_count": 37,
+    "nb_visits_converted": 2,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 178,
+        "items": 2
+      },
+      "idgoal=4": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      },
+      "idgoal=8": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 2,
+    "revenue": 1,
+    "code": "mx",
+    "logo": "plugins/Morpheus/icons/dist/flags/mx.png",
+    "segment": "countryCode==mx",
+    "logoHeight": 16
+  },
+  {
+    "label": "Czechia",
+    "nb_uniq_visitors": 49,
+    "nb_visits": 51,
+    "nb_actions": 126,
+    "nb_users": 0,
+    "max_actions": 16,
+    "sum_visit_length": 5288,
+    "bounce_count": 32,
+    "nb_visits_converted": 3,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 500,
+        "items": 1
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 295.9,
+        "revenue_subtotal": 78,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 2
+      },
+      "idgoal=8": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 3,
+    "revenue": 295.9,
+    "code": "cz",
+    "logo": "plugins/Morpheus/icons/dist/flags/cz.png",
+    "segment": "countryCode==cz",
+    "logoHeight": 16
+  },
+  {
+    "label": "South Korea",
+    "nb_uniq_visitors": 40,
+    "nb_visits": 46,
+    "nb_actions": 135,
+    "nb_users": 0,
+    "max_actions": 17,
+    "sum_visit_length": 11359,
+    "bounce_count": 26,
+    "nb_visits_converted": 5,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 11,
+        "nb_visits_converted": 11,
+        "revenue": 2376.8,
+        "items": 19
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 89,
+        "revenue_subtotal": 149,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 1
+      },
+      "idgoal=7": {
+        "nb_conversions": 4,
+        "nb_visits_converted": 4,
+        "revenue": 4
+      }
+    },
+    "nb_conversions": 5,
+    "revenue": 93,
+    "code": "kr",
+    "logo": "plugins/Morpheus/icons/dist/flags/kr.png",
+    "segment": "countryCode==kr",
+    "logoHeight": 16
+  },
+  {
+    "label": "Ireland",
+    "nb_uniq_visitors": 36,
+    "nb_visits": 40,
+    "nb_actions": 97,
+    "nb_users": 0,
+    "max_actions": 16,
+    "sum_visit_length": 5806,
+    "bounce_count": 25,
+    "nb_visits_converted": 3,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 5,
+        "nb_visits_converted": 5,
+        "revenue": 587.75,
+        "items": 5
+      },
+      "idgoal=5": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 5
+      },
+      "idgoal=7": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      },
+      "idgoal=8": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 3,
+    "revenue": 6,
+    "code": "ie",
+    "logo": "plugins/Morpheus/icons/dist/flags/ie.png",
+    "segment": "countryCode==ie",
+    "logoHeight": 16
+  },
+  {
+    "label": "Finland",
+    "nb_uniq_visitors": 36,
+    "nb_visits": 36,
+    "nb_actions": 123,
+    "nb_users": 0,
+    "max_actions": 20,
+    "sum_visit_length": 17811,
+    "bounce_count": 21,
+    "nb_visits_converted": 6,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 4,
+        "nb_visits_converted": 4,
+        "revenue": 39.9,
+        "items": 2
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 39.9,
+        "revenue_subtotal": 398,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 2
+      },
+      "idgoal=7": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 3
+      },
+      "idgoal=10": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 6,
+    "revenue": 42.9,
+    "code": "fi",
+    "logo": "plugins/Morpheus/icons/dist/flags/fi.png",
+    "segment": "countryCode==fi",
+    "logoHeight": 16
+  },
+  {
+    "label": "Saudi Arabia",
+    "nb_uniq_visitors": 28,
+    "nb_visits": 32,
+    "nb_actions": 65,
+    "nb_users": 0,
+    "max_actions": 5,
+    "sum_visit_length": 5329,
+    "bounce_count": 17,
+    "nb_visits_converted": 3,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 4,
+        "nb_visits_converted": 4,
+        "revenue": 591.8,
+        "items": 4
+      },
+      "idgoal=7": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 3
+      },
+      "idgoal=8": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 4,
+    "revenue": 3,
+    "code": "sa",
+    "logo": "plugins/Morpheus/icons/dist/flags/sa.png",
+    "segment": "countryCode==sa",
+    "logoHeight": 16
+  },
+  {
+    "label": "Maldives",
+    "nb_uniq_visitors": 30,
+    "nb_visits": 31,
+    "nb_actions": 70,
+    "nb_users": 0,
+    "max_actions": 16,
+    "sum_visit_length": 3488,
+    "bounce_count": 23,
+    "nb_visits_converted": 0,
+    "code": "mv",
+    "logo": "plugins/Morpheus/icons/dist/flags/mv.png",
+    "segment": "countryCode==mv",
+    "logoHeight": 16
+  },
+  {
+    "label": "Türkiye",
+    "nb_uniq_visitors": 22,
+    "nb_visits": 27,
+    "nb_actions": 88,
+    "nb_users": 0,
+    "max_actions": 10,
+    "sum_visit_length": 6479,
+    "bounce_count": 10,
+    "nb_visits_converted": 0,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 6,
+        "nb_visits_converted": 6,
+        "revenue": 1217.9,
+        "items": 6
+      }
+    },
+    "nb_conversions": 0,
+    "revenue": 0,
+    "code": "tr",
+    "logo": "plugins/Morpheus/icons/dist/flags/tr.png",
+    "segment": "countryCode==tr",
+    "logoHeight": 16
+  },
+  {
+    "label": "Ukraine",
+    "nb_uniq_visitors": 24,
+    "nb_visits": 27,
+    "nb_actions": 104,
+    "nb_users": 0,
+    "max_actions": 18,
+    "sum_visit_length": 8190,
+    "bounce_count": 13,
+    "nb_visits_converted": 1,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 8,
+        "nb_visits_converted": 8,
+        "revenue": 3531.8,
+        "items": 11
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 500,
+        "revenue_subtotal": 229,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 1
+      }
+    },
+    "nb_conversions": 1,
+    "revenue": 500,
+    "code": "ua",
+    "logo": "plugins/Morpheus/icons/dist/flags/ua.png",
+    "segment": "countryCode==ua",
+    "logoHeight": 16
+  },
+  {
+    "label": "Greece",
+    "nb_uniq_visitors": 22,
+    "nb_visits": 23,
+    "nb_actions": 60,
+    "nb_users": 0,
+    "max_actions": 10,
+    "sum_visit_length": 4206,
+    "bounce_count": 12,
+    "nb_visits_converted": 3,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 7.95,
+        "items": 1
+      },
+      "idgoal=5": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 5
+      },
+      "idgoal=7": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 2
+      }
+    },
+    "nb_conversions": 3,
+    "revenue": 7,
+    "code": "gr",
+    "logo": "plugins/Morpheus/icons/dist/flags/gr.png",
+    "segment": "countryCode==gr",
+    "logoHeight": 16
+  },
+  {
+    "label": "Jordan",
+    "nb_uniq_visitors": 21,
+    "nb_visits": 23,
+    "nb_actions": 56,
+    "nb_users": 0,
+    "max_actions": 14,
+    "sum_visit_length": 2519,
+    "bounce_count": 16,
+    "nb_visits_converted": 1,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 109.95,
+        "items": 1
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 109.95,
+        "revenue_subtotal": 179,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 1
+      }
+    },
+    "nb_conversions": 1,
+    "revenue": 109.95,
+    "code": "jo",
+    "logo": "plugins/Morpheus/icons/dist/flags/jo.png",
+    "segment": "countryCode==jo",
+    "logoHeight": 16
+  },
+  {
+    "label": "Argentina",
+    "nb_uniq_visitors": 21,
+    "nb_visits": 22,
+    "nb_actions": 84,
+    "nb_users": 0,
+    "max_actions": 21,
+    "sum_visit_length": 6351,
+    "bounce_count": 11,
+    "nb_visits_converted": 1,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 5,
+        "nb_visits_converted": 5,
+        "revenue": 1071.75,
+        "items": 7
+      },
+      "idgoal=8": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 1,
+    "revenue": 0,
+    "code": "ar",
+    "logo": "plugins/Morpheus/icons/dist/flags/ar.png",
+    "segment": "countryCode==ar",
+    "logoHeight": 16
+  },
+  {
+    "label": "Portugal",
+    "nb_uniq_visitors": 21,
+    "nb_visits": 22,
+    "nb_actions": 130,
+    "nb_users": 0,
+    "max_actions": 45,
+    "sum_visit_length": 15900,
+    "bounce_count": 10,
+    "nb_visits_converted": 3,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 19.95,
+        "items": 1
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 500,
+        "revenue_subtotal": 199,
+        "revenue_tax": 39.8,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 1
+      },
+      "idgoal=7": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 2
+      }
+    },
+    "nb_conversions": 3,
+    "revenue": 502,
+    "code": "pt",
+    "logo": "plugins/Morpheus/icons/dist/flags/pt.png",
+    "segment": "countryCode==pt",
+    "logoHeight": 16
+  },
+  {
+    "label": "Iran",
+    "nb_uniq_visitors": 17,
+    "nb_visits": 21,
+    "nb_actions": 109,
+    "nb_users": 0,
+    "max_actions": 13,
+    "sum_visit_length": 8289,
+    "bounce_count": 3,
+    "nb_visits_converted": 2,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 16,
+        "nb_visits_converted": 16,
+        "revenue": 2592.55,
+        "items": 17
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 39.9,
+        "revenue_subtotal": 458,
+        "revenue_tax": 91.6,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 2
+      }
+    },
+    "nb_conversions": 2,
+    "revenue": 39.9,
+    "code": "ir",
+    "logo": "plugins/Morpheus/icons/dist/flags/ir.png",
+    "segment": "countryCode==ir",
+    "logoHeight": 16
+  },
+  {
+    "label": "Romania",
+    "nb_uniq_visitors": 14,
+    "nb_visits": 21,
+    "nb_actions": 93,
+    "nb_users": 0,
+    "max_actions": 12,
+    "sum_visit_length": 7903,
+    "bounce_count": 8,
+    "nb_visits_converted": 4,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 6,
+        "nb_visits_converted": 6,
+        "revenue": 2159.8,
+        "items": 8
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 4,
+        "nb_visits_converted": 4,
+        "revenue": 249.9,
+        "revenue_subtotal": 336,
+        "revenue_tax": 67.2,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 4
+      }
+    },
+    "nb_conversions": 4,
+    "revenue": 249.9,
+    "code": "ro",
+    "logo": "plugins/Morpheus/icons/dist/flags/ro.png",
+    "segment": "countryCode==ro",
+    "logoHeight": 16
+  },
+  {
+    "label": "Costa Rica",
+    "nb_uniq_visitors": 19,
+    "nb_visits": 20,
+    "nb_actions": 30,
+    "nb_users": 0,
+    "max_actions": 9,
+    "sum_visit_length": 1616,
+    "bounce_count": 17,
+    "nb_visits_converted": 1,
+    "goals": {
+      "idgoal=6": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 2
+      }
+    },
+    "nb_conversions": 1,
+    "revenue": 2,
+    "code": "cr",
+    "logo": "plugins/Morpheus/icons/dist/flags/cr.png",
+    "segment": "countryCode==cr",
+    "logoHeight": 16
+  },
+  {
+    "label": "Fiji",
+    "nb_uniq_visitors": 18,
+    "nb_visits": 20,
+    "nb_actions": 29,
+    "nb_users": 0,
+    "max_actions": 4,
+    "sum_visit_length": 637,
+    "bounce_count": 15,
+    "nb_visits_converted": 2,
+    "goals": {
+      "idgoal=7": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 2
+      }
+    },
+    "nb_conversions": 2,
+    "revenue": 2,
+    "code": "fj",
+    "logo": "plugins/Morpheus/icons/dist/flags/fj.png",
+    "segment": "countryCode==fj",
+    "logoHeight": 16
+  },
+  {
+    "label": "Cambodia",
+    "nb_uniq_visitors": 16,
+    "nb_visits": 18,
+    "nb_actions": "39",
+    "nb_users": 0,
+    "max_actions": 10,
+    "sum_visit_length": "1987",
+    "bounce_count": "12",
+    "nb_visits_converted": "0",
+    "code": "kh",
+    "logo": "plugins/Morpheus/icons/dist/flags/kh.png",
+    "segment": "countryCode==kh",
+    "logoHeight": 16
+  },
+  {
+    "label": "Sri Lanka",
+    "nb_uniq_visitors": 16,
+    "nb_visits": 18,
+    "nb_actions": 63,
+    "nb_users": 0,
+    "max_actions": 13,
+    "sum_visit_length": 5818,
+    "bounce_count": 10,
+    "nb_visits_converted": 2,
+    "goals": {
+      "idgoal=4": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      },
+      "idgoal=5": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 5
+      }
+    },
+    "nb_conversions": 2,
+    "revenue": 6,
+    "code": "lk",
+    "logo": "plugins/Morpheus/icons/dist/flags/lk.png",
+    "segment": "countryCode==lk",
+    "logoHeight": 16
+  },
+  {
+    "label": "Hungary",
+    "nb_uniq_visitors": 15,
+    "nb_visits": 17,
+    "nb_actions": 74,
+    "nb_users": 0,
+    "max_actions": 14,
+    "sum_visit_length": 12373,
+    "bounce_count": 5,
+    "nb_visits_converted": 3,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 89,
+        "items": 1
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 267,
+        "revenue_subtotal": 407,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 3
+      }
+    },
+    "nb_conversions": 3,
+    "revenue": 267,
+    "code": "hu",
+    "logo": "plugins/Morpheus/icons/dist/flags/hu.png",
+    "segment": "countryCode==hu",
+    "logoHeight": 16
+  },
+  {
+    "label": "Qatar",
+    "nb_uniq_visitors": 15,
+    "nb_visits": 16,
+    "nb_actions": "27",
+    "nb_users": 0,
+    "max_actions": 8,
+    "sum_visit_length": "4088",
+    "bounce_count": "11",
+    "nb_visits_converted": "0",
+    "code": "qa",
+    "logo": "plugins/Morpheus/icons/dist/flags/qa.png",
+    "segment": "countryCode==qa",
+    "logoHeight": 16
+  },
+  {
+    "label": "Slovenia",
+    "nb_uniq_visitors": 14,
+    "nb_visits": 15,
+    "nb_actions": 30,
+    "nb_users": 0,
+    "max_actions": 6,
+    "sum_visit_length": 1755,
+    "bounce_count": 9,
+    "nb_visits_converted": 0,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 500,
+        "items": 1
+      }
+    },
+    "nb_conversions": 0,
+    "revenue": 0,
+    "code": "si",
+    "logo": "plugins/Morpheus/icons/dist/flags/si.png",
+    "segment": "countryCode==si",
+    "logoHeight": 16
+  },
+  {
+    "label": "Cyprus",
+    "nb_uniq_visitors": 8,
+    "nb_visits": 13,
+    "nb_actions": 37,
+    "nb_users": 0,
+    "max_actions": 10,
+    "sum_visit_length": 4046,
+    "bounce_count": 2,
+    "nb_visits_converted": 3,
+    "goals": {
+      "idgoal=5": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 5
+      },
+      "idgoal=6": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 2
+      },
+      "idgoal=7": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      }
+    },
+    "nb_conversions": 3,
+    "revenue": 8,
+    "code": "cy",
+    "logo": "plugins/Morpheus/icons/dist/flags/cy.png",
+    "segment": "countryCode==cy",
+    "logoHeight": 16
+  },
+  {
+    "label": "Malta",
+    "nb_uniq_visitors": 13,
+    "nb_visits": 13,
+    "nb_actions": 23,
+    "nb_users": 0,
+    "max_actions": 4,
+    "sum_visit_length": 3040,
+    "bounce_count": 8,
+    "nb_visits_converted": 0,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 109.9,
+        "items": 2
+      }
+    },
+    "nb_conversions": 0,
+    "revenue": 0,
+    "code": "mt",
+    "logo": "plugins/Morpheus/icons/dist/flags/mt.png",
+    "segment": "countryCode==mt",
+    "logoHeight": 16
+  },
+  {
+    "label": "Bulgaria",
+    "nb_uniq_visitors": 11,
+    "nb_visits": 11,
+    "nb_actions": 21,
+    "nb_users": 0,
+    "max_actions": 6,
+    "sum_visit_length": 2190,
+    "bounce_count": 8,
+    "nb_visits_converted": 1,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 44.95,
+        "items": 1
+      },
+      "idgoal=7": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      }
+    },
+    "nb_conversions": 1,
+    "revenue": 1,
+    "code": "bg",
+    "logo": "plugins/Morpheus/icons/dist/flags/bg.png",
+    "segment": "countryCode==bg",
+    "logoHeight": 16
+  },
+  {
+    "label": "Colombia",
+    "nb_uniq_visitors": 10,
+    "nb_visits": 10,
+    "nb_actions": 20,
+    "nb_users": 0,
+    "max_actions": 7,
+    "sum_visit_length": 1602,
+    "bounce_count": 6,
+    "nb_visits_converted": 1,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 500,
+        "items": 1
+      },
+      "idgoal=7": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      }
+    },
+    "nb_conversions": 1,
+    "revenue": 1,
+    "code": "co",
+    "logo": "plugins/Morpheus/icons/dist/flags/co.png",
+    "segment": "countryCode==co",
+    "logoHeight": 16
+  },
+  {
+    "label": "Dominican Republic",
+    "nb_uniq_visitors": 9,
+    "nb_visits": 10,
+    "nb_actions": 16,
+    "nb_users": 0,
+    "max_actions": 4,
+    "sum_visit_length": 644,
+    "bounce_count": 7,
+    "nb_visits_converted": 2,
+    "goals": {
+      "idgoal=7": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 2
+      }
+    },
+    "nb_conversions": 2,
+    "revenue": 2,
+    "code": "do",
+    "logo": "plugins/Morpheus/icons/dist/flags/do.png",
+    "segment": "countryCode==do",
+    "logoHeight": 16
+  },
+  {
+    "label": "Serbia",
+    "nb_uniq_visitors": 10,
+    "nb_visits": 10,
+    "nb_actions": 46,
+    "nb_users": 0,
+    "max_actions": 13,
+    "sum_visit_length": 1632,
+    "bounce_count": 4,
+    "nb_visits_converted": 0,
+    "code": "rs",
+    "logo": "plugins/Morpheus/icons/dist/flags/rs.png",
+    "segment": "countryCode==rs",
+    "logoHeight": 16
+  },
+  {
+    "label": "Brunei",
+    "nb_uniq_visitors": 9,
+    "nb_visits": 9,
+    "nb_actions": "18",
+    "nb_users": 0,
+    "max_actions": 7,
+    "sum_visit_length": "1162",
+    "bounce_count": "7",
+    "nb_visits_converted": "3",
+    "goals": {
+      "idgoal=7": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 3
+      },
+      "idgoal=8": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 4,
+    "revenue": 3,
+    "code": "bn",
+    "logo": "plugins/Morpheus/icons/dist/flags/bn.png",
+    "segment": "countryCode==bn",
+    "logoHeight": 16
+  },
+  {
+    "label": "Caribbean Netherlands",
+    "nb_uniq_visitors": 8,
+    "nb_visits": 9,
+    "nb_actions": 10,
+    "nb_users": 0,
+    "max_actions": 2,
+    "sum_visit_length": 425,
+    "bounce_count": 8,
+    "nb_visits_converted": 0,
+    "code": "bq",
+    "logo": "plugins/Morpheus/icons/dist/flags/bq.png",
+    "segment": "countryCode==bq",
+    "logoHeight": 16
+  },
+  {
+    "label": "Croatia",
+    "nb_uniq_visitors": 8,
+    "nb_visits": 9,
+    "nb_actions": 16,
+    "nb_users": 1,
+    "max_actions": 5,
+    "sum_visit_length": 2344,
+    "bounce_count": 6,
+    "nb_visits_converted": 1,
+    "goals": {
+      "idgoal=7": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      }
+    },
+    "nb_conversions": 1,
+    "revenue": 1,
+    "code": "hr",
+    "logo": "plugins/Morpheus/icons/dist/flags/hr.png",
+    "segment": "countryCode==hr",
+    "logoHeight": 16
+  },
+  {
+    "label": "Kuwait",
+    "nb_uniq_visitors": 8,
+    "nb_visits": 9,
+    "nb_actions": 22,
+    "nb_users": 0,
+    "max_actions": 7,
+    "sum_visit_length": 1024,
+    "bounce_count": 5,
+    "nb_visits_converted": 0,
+    "code": "kw",
+    "logo": "plugins/Morpheus/icons/dist/flags/kw.png",
+    "segment": "countryCode==kw",
+    "logoHeight": 16
+  },
+  {
+    "label": "Morocco",
+    "nb_uniq_visitors": 9,
+    "nb_visits": 9,
+    "nb_actions": 57,
+    "nb_users": 0,
+    "max_actions": 16,
+    "sum_visit_length": 8074,
+    "bounce_count": 2,
+    "nb_visits_converted": 3,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 3,
+        "nb_visits_converted": 3,
+        "revenue": 267,
+        "items": 3
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 178,
+        "revenue_subtotal": 258,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 2
+      },
+      "idgoal=7": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      }
+    },
+    "nb_conversions": 3,
+    "revenue": 179,
+    "code": "ma",
+    "logo": "plugins/Morpheus/icons/dist/flags/ma.png",
+    "segment": "countryCode==ma",
+    "logoHeight": 16
+  },
+  {
+    "label": "Myanmar (Burma)",
+    "nb_uniq_visitors": 8,
+    "nb_visits": 9,
+    "nb_actions": 12,
+    "nb_users": 0,
+    "max_actions": 2,
+    "sum_visit_length": 436,
+    "bounce_count": 6,
+    "nb_visits_converted": 0,
+    "code": "mm",
+    "logo": "plugins/Morpheus/icons/dist/flags/mm.png",
+    "segment": "countryCode==mm",
+    "logoHeight": 16
+  },
+  {
+    "label": "Pakistan",
+    "nb_uniq_visitors": 9,
+    "nb_visits": 9,
+    "nb_actions": 23,
+    "nb_users": 0,
+    "max_actions": 9,
+    "sum_visit_length": 3850,
+    "bounce_count": 4,
+    "nb_visits_converted": 0,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 539.9,
+        "items": 3
+      }
+    },
+    "nb_conversions": 0,
+    "revenue": 0,
+    "code": "pk",
+    "logo": "plugins/Morpheus/icons/dist/flags/pk.png",
+    "segment": "countryCode==pk",
+    "logoHeight": 16
+  },
+  {
+    "label": "Slovakia",
+    "nb_uniq_visitors": 9,
+    "nb_visits": 9,
+    "nb_actions": 27,
+    "nb_users": 0,
+    "max_actions": 12,
+    "sum_visit_length": 1767,
+    "bounce_count": 5,
+    "nb_visits_converted": 1,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 109.95,
+        "items": 1
+      },
+      "idgoal=9": {
+        "nb_conversions": 4,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 4,
+    "revenue": 0,
+    "code": "sk",
+    "logo": "plugins/Morpheus/icons/dist/flags/sk.png",
+    "segment": "countryCode==sk",
+    "logoHeight": 16
+  },
+  {
+    "label": "Lithuania",
+    "nb_uniq_visitors": 8,
+    "nb_visits": 8,
+    "nb_actions": 31,
+    "nb_users": 0,
+    "max_actions": 21,
+    "sum_visit_length": 430,
+    "bounce_count": 4,
+    "nb_visits_converted": 1,
+    "goals": {
+      "idgoal=7": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      }
+    },
+    "nb_conversions": 1,
+    "revenue": 1,
+    "code": "lt",
+    "logo": "plugins/Morpheus/icons/dist/flags/lt.png",
+    "segment": "countryCode==lt",
+    "logoHeight": 16
+  },
+  {
+    "label": "Luxembourg",
+    "nb_uniq_visitors": 7,
+    "nb_visits": 8,
+    "nb_actions": 9,
+    "nb_users": 0,
+    "max_actions": 2,
+    "sum_visit_length": 250,
+    "bounce_count": 7,
+    "nb_visits_converted": 0,
+    "code": "lu",
+    "logo": "plugins/Morpheus/icons/dist/flags/lu.png",
+    "segment": "countryCode==lu",
+    "logoHeight": 16
+  },
+  {
+    "label": "Oman",
+    "nb_uniq_visitors": 7,
+    "nb_visits": 8,
+    "nb_actions": 18,
+    "nb_users": 0,
+    "max_actions": 8,
+    "sum_visit_length": 724,
+    "bounce_count": 5,
+    "nb_visits_converted": 1,
+    "goals": {
+      "idgoal=10": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 1,
+    "revenue": 0,
+    "code": "om",
+    "logo": "plugins/Morpheus/icons/dist/flags/om.png",
+    "segment": "countryCode==om",
+    "logoHeight": 16
+  },
+  {
+    "label": "Belize",
+    "nb_uniq_visitors": 7,
+    "nb_visits": 7,
+    "nb_actions": 11,
+    "nb_users": 0,
+    "max_actions": 4,
+    "sum_visit_length": 144,
+    "bounce_count": 5,
+    "nb_visits_converted": 1,
+    "goals": {
+      "idgoal=8": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 1,
+    "revenue": 0,
+    "code": "bz",
+    "logo": "plugins/Morpheus/icons/dist/flags/bz.png",
+    "segment": "countryCode==bz",
+    "logoHeight": 16
+  },
+  {
+    "label": "Estonia",
+    "nb_uniq_visitors": 7,
+    "nb_visits": 7,
+    "nb_actions": 15,
+    "nb_users": 0,
+    "max_actions": 9,
+    "sum_visit_length": 290,
+    "bounce_count": 6,
+    "nb_visits_converted": 0,
+    "code": "ee",
+    "logo": "plugins/Morpheus/icons/dist/flags/ee.png",
+    "segment": "countryCode==ee",
+    "logoHeight": 16
+  },
+  {
+    "label": "Guatemala",
+    "nb_uniq_visitors": 6,
+    "nb_visits": 7,
+    "nb_actions": "36",
+    "nb_users": 0,
+    "max_actions": 14,
+    "sum_visit_length": "2529",
+    "bounce_count": "3",
+    "nb_visits_converted": "2",
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 147.95,
+        "items": 1
+      },
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 295.9,
+        "revenue_subtotal": 78,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 2
+      }
+    },
+    "nb_conversions": 2,
+    "revenue": 295.9,
+    "code": "gt",
+    "logo": "plugins/Morpheus/icons/dist/flags/gt.png",
+    "segment": "countryCode==gt",
+    "logoHeight": 16
+  },
+  {
+    "label": "Mauritius",
+    "nb_uniq_visitors": 7,
+    "nb_visits": 7,
+    "nb_actions": 28,
+    "nb_users": 0,
+    "max_actions": 9,
+    "sum_visit_length": 1548,
+    "bounce_count": 1,
+    "nb_visits_converted": 0,
+    "code": "mu",
+    "logo": "plugins/Morpheus/icons/dist/flags/mu.png",
+    "segment": "countryCode==mu",
+    "logoHeight": 16
+  },
+  {
+    "label": "Bahamas",
+    "nb_uniq_visitors": 5,
+    "nb_visits": 6,
+    "nb_actions": "18",
+    "nb_users": 0,
+    "max_actions": 12,
+    "sum_visit_length": "962",
+    "bounce_count": "4",
+    "nb_visits_converted": "1",
+    "goals": {
+      "idgoal=5": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 5
+      }
+    },
+    "nb_conversions": 1,
+    "revenue": 5,
+    "code": "bs",
+    "logo": "plugins/Morpheus/icons/dist/flags/bs.png",
+    "segment": "countryCode==bs",
+    "logoHeight": 16
+  },
+  {
+    "label": "Bahrain",
+    "nb_uniq_visitors": 6,
+    "nb_visits": 6,
+    "nb_actions": 14,
+    "nb_users": 0,
+    "max_actions": 6,
+    "sum_visit_length": 1123,
+    "bounce_count": 3,
+    "nb_visits_converted": 2,
+    "goals": {
+      "idgoal=5": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 5
+      },
+      "idgoal=7": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      }
+    },
+    "nb_conversions": 2,
+    "revenue": 6,
+    "code": "bh",
+    "logo": "plugins/Morpheus/icons/dist/flags/bh.png",
+    "segment": "countryCode==bh",
+    "logoHeight": 16
+  },
+  {
+    "label": "Chile",
+    "nb_uniq_visitors": 6,
+    "nb_visits": 6,
+    "nb_actions": 9,
+    "nb_users": 0,
+    "max_actions": 4,
+    "sum_visit_length": 1211,
+    "bounce_count": 5,
+    "nb_visits_converted": 0,
+    "code": "cl",
+    "logo": "plugins/Morpheus/icons/dist/flags/cl.png",
+    "segment": "countryCode==cl",
+    "logoHeight": 16
+  },
+  {
+    "label": "Latvia",
+    "nb_uniq_visitors": 6,
+    "nb_visits": 6,
+    "nb_actions": 33,
+    "nb_users": 0,
+    "max_actions": 18,
+    "sum_visit_length": 888,
+    "bounce_count": 0,
+    "nb_visits_converted": 0,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 4,
+        "nb_visits_converted": 4,
+        "revenue": 55.8,
+        "items": 4
+      }
+    },
+    "nb_conversions": 0,
+    "revenue": 0,
+    "code": "lv",
+    "logo": "plugins/Morpheus/icons/dist/flags/lv.png",
+    "segment": "countryCode==lv",
+    "logoHeight": 16
+  },
+  {
+    "label": "Bangladesh",
+    "nb_uniq_visitors": 5,
+    "nb_visits": 5,
+    "nb_actions": 5,
+    "nb_users": 0,
+    "max_actions": 1,
+    "sum_visit_length": 0,
+    "bounce_count": 5,
+    "nb_visits_converted": 0,
+    "code": "bd",
+    "logo": "plugins/Morpheus/icons/dist/flags/bd.png",
+    "segment": "countryCode==bd",
+    "logoHeight": 16
+  },
+  {
+    "label": "Kenya",
+    "nb_uniq_visitors": 5,
+    "nb_visits": 5,
+    "nb_actions": 10,
+    "nb_users": 0,
+    "max_actions": 3,
+    "sum_visit_length": 518,
+    "bounce_count": 1,
+    "nb_visits_converted": 1,
+    "goals": {
+      "idgoal=7": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      }
+    },
+    "nb_conversions": 1,
+    "revenue": 1,
+    "code": "ke",
+    "logo": "plugins/Morpheus/icons/dist/flags/ke.png",
+    "segment": "countryCode==ke",
+    "logoHeight": 16
+  },
+  {
+    "label": "Lebanon",
+    "nb_uniq_visitors": 5,
+    "nb_visits": 5,
+    "nb_actions": 5,
+    "nb_users": 0,
+    "max_actions": 1,
+    "sum_visit_length": 0,
+    "bounce_count": 5,
+    "nb_visits_converted": 0,
+    "code": "lb",
+    "logo": "plugins/Morpheus/icons/dist/flags/lb.png",
+    "segment": "countryCode==lb",
+    "logoHeight": 16
+  },
+  {
+    "label": "New Caledonia",
+    "nb_uniq_visitors": 5,
+    "nb_visits": 5,
+    "nb_actions": "15",
+    "nb_users": 0,
+    "max_actions": 6,
+    "sum_visit_length": "1660",
+    "bounce_count": "3",
+    "nb_visits_converted": "1",
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 2,
+        "nb_visits_converted": 2,
+        "revenue": 1000,
+        "items": 2
+      },
+      "idgoal=8": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 1,
+    "revenue": 0,
+    "code": "nc",
+    "logo": "plugins/Morpheus/icons/dist/flags/nc.png",
+    "segment": "countryCode==nc",
+    "logoHeight": 16
+  },
+  {
+    "label": "Panama",
+    "nb_uniq_visitors": 5,
+    "nb_visits": 5,
+    "nb_actions": 5,
+    "nb_users": 0,
+    "max_actions": 1,
+    "sum_visit_length": 0,
+    "bounce_count": 5,
+    "nb_visits_converted": 0,
+    "code": "pa",
+    "logo": "plugins/Morpheus/icons/dist/flags/pa.png",
+    "segment": "countryCode==pa",
+    "logoHeight": 16
+  },
+  {
+    "label": "Uruguay",
+    "nb_uniq_visitors": 5,
+    "nb_visits": 5,
+    "nb_actions": "41",
+    "nb_users": 0,
+    "max_actions": 19,
+    "sum_visit_length": "6922",
+    "bounce_count": "3",
+    "nb_visits_converted": "0",
+    "code": "uy",
+    "logo": "plugins/Morpheus/icons/dist/flags/uy.png",
+    "segment": "countryCode==uy",
+    "logoHeight": 16
+  },
+  {
+    "label": "Ecuador",
+    "nb_uniq_visitors": 4,
+    "nb_visits": 4,
+    "nb_actions": "43",
+    "nb_users": 0,
+    "max_actions": 39,
+    "sum_visit_length": "840",
+    "bounce_count": "2",
+    "nb_visits_converted": "1",
+    "goals": {
+      "idgoal=ecommerceOrder": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 35.95,
+        "revenue_subtotal": 1420,
+        "revenue_tax": 0,
+        "revenue_shipping": 0,
+        "revenue_discount": 0,
+        "items": 10
+      }
+    },
+    "nb_conversions": 1,
+    "revenue": 35.95,
+    "code": "ec",
+    "logo": "plugins/Morpheus/icons/dist/flags/ec.png",
+    "segment": "countryCode==ec",
+    "logoHeight": 16
+  },
+  {
+    "label": "Laos",
+    "nb_uniq_visitors": 4,
+    "nb_visits": 4,
+    "nb_actions": 6,
+    "nb_users": 0,
+    "max_actions": 2,
+    "sum_visit_length": 657,
+    "bounce_count": 2,
+    "nb_visits_converted": 0,
+    "code": "la",
+    "logo": "plugins/Morpheus/icons/dist/flags/la.png",
+    "segment": "countryCode==la",
+    "logoHeight": 16
+  },
+  {
+    "label": "Nigeria",
+    "nb_uniq_visitors": 3,
+    "nb_visits": 4,
+    "nb_actions": 26,
+    "nb_users": 0,
+    "max_actions": 18,
+    "sum_visit_length": 4018,
+    "bounce_count": 1,
+    "nb_visits_converted": 1,
+    "goals": {
+      "idgoal=7": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      }
+    },
+    "nb_conversions": 1,
+    "revenue": 1,
+    "code": "ng",
+    "logo": "plugins/Morpheus/icons/dist/flags/ng.png",
+    "segment": "countryCode==ng",
+    "logoHeight": 16
+  },
+  {
+    "label": "Tunisia",
+    "nb_uniq_visitors": 4,
+    "nb_visits": 4,
+    "nb_actions": 8,
+    "nb_users": 0,
+    "max_actions": 3,
+    "sum_visit_length": 543,
+    "bounce_count": 2,
+    "nb_visits_converted": 2,
+    "goals": {
+      "idgoal=4": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      },
+      "idgoal=8": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 0
+      }
+    },
+    "nb_conversions": 2,
+    "revenue": 1,
+    "code": "tn",
+    "logo": "plugins/Morpheus/icons/dist/flags/tn.png",
+    "segment": "countryCode==tn",
+    "logoHeight": 16
+  },
+  {
+    "label": "Uganda",
+    "nb_uniq_visitors": 4,
+    "nb_visits": 4,
+    "nb_actions": "7",
+    "nb_users": 0,
+    "max_actions": 3,
+    "sum_visit_length": "396",
+    "bounce_count": "2",
+    "nb_visits_converted": "0",
+    "code": "ug",
+    "logo": "plugins/Morpheus/icons/dist/flags/ug.png",
+    "segment": "countryCode==ug",
+    "logoHeight": 16
+  },
+  {
+    "label": "Unknown",
+    "nb_uniq_visitors": 4,
+    "nb_visits": 4,
+    "nb_actions": "6",
+    "nb_users": 0,
+    "max_actions": 3,
+    "sum_visit_length": "64",
+    "bounce_count": "3",
+    "nb_visits_converted": "1",
+    "goals": {
+      "idgoal=7": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      }
+    },
+    "nb_conversions": 1,
+    "revenue": 1,
+    "code": "xx",
+    "logo": "plugins/Morpheus/icons/dist/flags/xx.png",
+    "segment": "countryCode==xx",
+    "logoHeight": 16
+  },
+  {
+    "label": "Andorra",
+    "nb_uniq_visitors": 2,
+    "nb_visits": 3,
+    "nb_actions": "4",
+    "nb_users": 0,
+    "max_actions": 2,
+    "sum_visit_length": "183",
+    "bounce_count": "2",
+    "nb_visits_converted": "0",
+    "code": "ad",
+    "logo": "plugins/Morpheus/icons/dist/flags/ad.png",
+    "segment": "countryCode==ad",
+    "logoHeight": 16
+  },
+  {
+    "label": "Cameroon",
+    "nb_uniq_visitors": 3,
+    "nb_visits": 3,
+    "nb_actions": 5,
+    "nb_users": 0,
+    "max_actions": 3,
+    "sum_visit_length": 64,
+    "bounce_count": 2,
+    "nb_visits_converted": 0,
+    "goals": {
+      "idgoal=ecommerceAbandonedCart": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 89,
+        "items": 1
+      }
+    },
+    "nb_conversions": 0,
+    "revenue": 0,
+    "code": "cm",
+    "logo": "plugins/Morpheus/icons/dist/flags/cm.png",
+    "segment": "countryCode==cm",
+    "logoHeight": 16
+  },
+  {
+    "label": "Cuba",
+    "nb_uniq_visitors": 3,
+    "nb_visits": 3,
+    "nb_actions": "3",
+    "nb_users": 0,
+    "max_actions": 1,
+    "sum_visit_length": "0",
+    "bounce_count": "3",
+    "nb_visits_converted": "0",
+    "code": "cu",
+    "logo": "plugins/Morpheus/icons/dist/flags/cu.png",
+    "segment": "countryCode==cu",
+    "logoHeight": 16
+  },
+  {
+    "label": "Nicaragua",
+    "nb_uniq_visitors": 3,
+    "nb_visits": 3,
+    "nb_actions": 6,
+    "nb_users": 0,
+    "max_actions": 4,
+    "sum_visit_length": 26,
+    "bounce_count": 2,
+    "nb_visits_converted": 0,
+    "code": "ni",
+    "logo": "plugins/Morpheus/icons/dist/flags/ni.png",
+    "segment": "countryCode==ni",
+    "logoHeight": 16
+  },
+  {
+    "label": "Peru",
+    "nb_uniq_visitors": 3,
+    "nb_visits": 3,
+    "nb_actions": "3",
+    "nb_users": 0,
+    "max_actions": 1,
+    "sum_visit_length": "0",
+    "bounce_count": "3",
+    "nb_visits_converted": "0",
+    "code": "pe",
+    "logo": "plugins/Morpheus/icons/dist/flags/pe.png",
+    "segment": "countryCode==pe",
+    "logoHeight": 16
+  },
+  {
+    "label": "U.S. Virgin Islands",
+    "nb_uniq_visitors": 3,
+    "nb_visits": 3,
+    "nb_actions": 5,
+    "nb_users": 0,
+    "max_actions": 3,
+    "sum_visit_length": 54,
+    "bounce_count": 2,
+    "nb_visits_converted": 1,
+    "goals": {
+      "idgoal=4": {
+        "nb_conversions": 1,
+        "nb_visits_converted": 1,
+        "revenue": 1
+      }
+    },
+    "nb_conversions": 1,
+    "revenue": 1,
+    "code": "vi",
+    "logo": "plugins/Morpheus/icons/dist/flags/vi.png",
+    "segment": "countryCode==vi",
+    "logoHeight": 16
+  },
+  {
+    "label": "Zimbabwe",
+    "nb_uniq_visitors": 2,
+    "nb_visits": 3,
+    "nb_actions": "4",
+    "nb_users": 0,
+    "max_actions": 2,
+    "sum_visit_length": "275",
+    "bounce_count": "2",
+    "nb_visits_converted": "0",
+    "code": "zw",
+    "logo": "plugins/Morpheus/icons/dist/flags/zw.png",
+    "segment": "countryCode==zw",
+    "logoHeight": 16
+  }
+]
