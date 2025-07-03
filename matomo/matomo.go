@@ -1,4 +1,4 @@
-package main
+package matomo
 
 import (
 	"crypto/rand"

@@ -5,6 +5,7 @@ import (
 	"log"
 	"os"
 
+	"github.com/ivanpaghubasan/gomatomo/matomo"
 	"github.com/joho/godotenv"
 )
 
@@ -14,7 +15,7 @@ func main() {
 		log.Fatal("Error loading .env file")
 	}
 
-	client := NewClient(os.Getenv("MATOMO_URL"), os.Getenv("MATOMO_TOKEN"), os.Getenv("MATOMO_SCRIPT_URL"))
+	client := matomo.NewClient(os.Getenv("MATOMO_URL"), os.Getenv("MATOMO_TOKEN"), os.Getenv("MATOMO_SCRIPT_URL"))
 	list, err := client.GetMockSessionsByDevice()
 	if err != nil {
 		log.Fatal(err)

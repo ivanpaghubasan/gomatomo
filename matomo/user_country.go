@@ -1,4 +1,4 @@
-package main
+package matomo
 
 import (
 	"encoding/json"
