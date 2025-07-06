@@ -15,7 +15,7 @@ func main() {
 		log.Fatal("Error loading .env file")
 	}
 
-	client := matomo.NewClient(os.Getenv("MATOMO_URL"), os.Getenv("MATOMO_TOKEN"), os.Getenv("MATOMO_SCRIPT_URL"))
+	client := matomo.NewClient(os.Getenv("MATOMO_URL"), os.Getenv("MATOMO_TOKEN"))
 	list, err := client.GetMockSessionsByDevice()
 	if err != nil {
 		log.Fatal(err)
@@ -27,6 +27,9 @@ func main() {
 		log.Fatal(err)
 	}
 	fmt.Println(list2)
+	var appID int64 = 543
+	appUrl := fmt.Sprintf("https://dapp.snaptoapp.com/app/%s/landing-page", fmt.Sprint(appID))
+	fmt.Println("App URL ", appUrl)
 	// userLogin := "john.doe"
 
 	// siteID, login, password, script, err := client.ProvisionTelemetry(
